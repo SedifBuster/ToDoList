@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(15, 188, 249,1.0);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.appHeader h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+}
+
+/* Large desktops and laptops */
+@media(min-width: 1200px) {
+  .appHeader h1 {
+    font-size: 80px;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 650px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
